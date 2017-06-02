@@ -1,0 +1,70 @@
+Indian Liver Patient Dataset
+Data Set Information:
+
+This data set contains 416 liver patient records and 167 non liver patient records.
+The data set was collected from north east of Andhra Pradesh, India.
+Selector is a class label used to divide into groups(liver patient or not).
+This data set contains 441 male patient records and 142 female patient records. 
+
+Any patient whose age exceeded 89 is listed as being of age "90".
+
+
+Attribute Information:
+
+1. Age	Age of the patient 
+2. Gender	Gender of the patient 
+3. TB	Total Bilirubin 
+4. DB	Direct Bilirubin 
+5. Alkphos Alkaline Phosphotase 
+6. Sgpt Alamine Aminotransferase 
+7. Sgot Aspartate Aminotransferase 
+8. TP	Total Protiens 
+9. ALB	Albumin 
+10. A/G Ratio	Albumin and Globulin Ratio 
+11. Selector field used to split the data into two sets (labeled by the experts)
+
+
+
+
+Liver related laboratory data
+
+Description
+Liver related laboratory data from a randomized, blind, parallel group clinical trial with 4 doses of a drug.
+
+Usage
+data(liver)
+Format
+A data frame with 606 observations on the following 9 variables.
+
+ALP.B
+Alkaline phosphatase at baseline. A numeric vector.
+
+ALT.B
+Alanine aminotransferase at baseline. A numeric vector.
+
+AST.B
+Aspartate aminotransferase at baseline. A numeric vector.
+
+TBL.B
+Total bilirubin at baseline. A numeric vector.
+
+ALP.M
+Alkaline phosphatase after treatment. A numeric vector.
+
+ALT.M
+Alanine aminotransferase after treatment. A numeric vector.
+
+AST.M
+Aspartate aminotransferase after treatment. A numeric vector.
+
+TBL.M
+Total bilirubin after treatment. A numeric vector.
+
+dose
+The treatment group (i.e. dose group). A factor with levels A B C D
+
+Details
+Dose A is the lowest dose, dose, B the next, C the next, and D the highest dose. The baseline values were taken prior to any treatment being received, and the clinical trial had a single post-baseline visit.
+
+Source
+AstraZeneca data on file.
